@@ -2,9 +2,17 @@
   "name": "react-start",
   "version": "0.0.1",
   "description": "Start with react and next",
-  "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress open",
+    "dev": "npm run test && next dev"
+  },
+  "dependencies": {
+    "next": "*",
+    "react": "*",
+    "react-dom": "*"
+  },
+  "devDependencies": {
+    "cypress": "*"
   },
   "repository": {
     "type": "git",
