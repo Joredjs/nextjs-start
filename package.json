@@ -1,0 +1,23 @@
+{
+  "name": "react-start",
+  "version": "0.0.1",
+  "description": "Start with react and next",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joredjs/nextjs-start.git"
+  },
+  "keywords": [
+    "react",
+    "nextjs"
+  ],
+  "author": "@joredjs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joredjs/nextjs-start/issues"
+  },
+  "homepage": "https://github.com/Joredjs/nextjs-start#readme"
+}
