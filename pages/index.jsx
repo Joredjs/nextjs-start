@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Link from "next/link"
 
 function Header({ title }) {
   const defaulTitle = "Página de prueba"
@@ -23,6 +24,9 @@ export default function HomePage() {
         ))}
       </ul>
       <button onClick={handleClick}>Like {likes}</button>
+      <Link href="/posts/first-post">
+				<button>Primer post</button>
+			</Link>
     </div>
   )
 }
