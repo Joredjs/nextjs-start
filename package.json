@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Start with react and next",
   "scripts": {
-    "test": "cypress open",
+    "lint": "next lint",
+    "test": "npm run lint && echo testing #cypress run",
     "dev": "npm run test && next dev"
   },
   "dependencies": {
@@ -12,7 +13,8 @@
     "react-dom": "*"
   },
   "devDependencies": {
-    "cypress": "*"
+    "cypress": "*",
+    "eslint-config-next": "13.0.7"
   },
   "repository": {
     "type": "git",
